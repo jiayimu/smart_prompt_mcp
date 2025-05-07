@@ -16,7 +16,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/smart_prompt_mcp.git
+git clone https://github.com/jiayimu/smart_prompt_mcp.git
 cd smart_prompt_mcp
 
 # 安装依赖
@@ -31,7 +31,7 @@ python3 smart_prompt_mcp/__main__.py [--config CONFIG_FILE] [--debug]
 1. 安装步骤：
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/smart_prompt_mcp.git
+git clone https://github.com/jiayimu/smart_prompt_mcp.git
 cd smart_prompt_mcp
 
 # 安装依赖并安装包
@@ -39,7 +39,17 @@ pip3 install -r requirements.txt
 pip3 install .
 ```
 
-2. 卸载说明：
+### 方式三：直接使用pip安装
+
+```bash
+# 安装包
+pip3 install smart-prompt-mcp
+
+# 运行
+python3 -m smart_prompt_mcp [--config CONFIG_FILE] [--debug]
+```
+
+## 卸载说明
 
 如果遇到以下情况：
 ```bash
